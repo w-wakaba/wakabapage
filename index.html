@@ -1,12 +1,172 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Big5診断テスト</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      min-height: 100vh;
+      background: linear-gradient(to bottom right, #E9D8FD, #C4B5FD);
+      font-family: Arial, sans-serif;
+    }
+    header, footer {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+      padding: 2rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #6B46C1;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.25rem;
+      color: #805AD5;
+    }
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    section {
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    section h2 {
+      font-size: 1.75rem;
+      color: #6B46C1;
+      margin-bottom: 1rem;
+    }
+    section p, section ol, section ul {
+      color: #805AD5;
+      font-size: 1.1rem;
+    }
+    ol, ul {
+      margin-left: 1.5rem;
+      list-style-position: inside;
+    }
+    ul li::marker {
+      color: #6B46C1;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .download-button {
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.5rem;
+      color: white;
+      margin: 0.5rem;
+      transition: background 0.3s;
+      font-weight: bold;
+    }
+    .download-button i {
+      margin-right: 0.5rem;
+      font-size: 1.5rem;
+    }
+    .download-button.app-store {
+      background: #333;
+    }
+    .download-button.app-store:hover {
+      background: #444;
+    }
+    .download-button.google-play {
+      background: #34A853;
+    }
+    .download-button.google-play:hover {
+      background: #2C8A3E;
+    }
+    footer {
+      font-size: 0.9rem;
+      color: #805AD5;
+    }
+  </style>
 </head>
 <body>
-    <h1>こんにちは、世界！</h1>
-    <p>これは私のGitHub Pagesのホームページです。</p>
+  <header>
+    <h1>Big5診断テスト</h1>
+    <p>あなたの性格を科学的に分析</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>このアプリについて</h2>
+      <p>
+        Big5診断テストは、心理学の分野で広く認知されている「ビッグファイブ性格特性」に基づいた性格診断アプリです。
+        自分の性格特性を詳しく理解し、自己成長や人間関係の改善に役立てることができます。
+        オフラインで動作し、アカウント登録は不要です。
+      </p>
+    </section>
+
+    <section>
+      <h2>特長</h2>
+      <div class="card">
+        <h3>簡単で直感的なテスト</h3>
+        <p>50問の質問に答えるだけで、あなたの性格特性を詳細に分析します。</p>
+      </div>
+      <div class="card">
+        <h3>詳細なレポート</h3>
+        <p>結果は5つの性格特性（外向性、協調性、誠実性、感情の安定性、知的好奇心）ごとに分かりやすく表示されます。</p>
+      </div>
+      <div class="card">
+        <h3>オフライン対応</h3>
+        <p>アプリはインターネット接続がなくても完全に機能します。いつでもどこでも性格診断が可能です。</p>
+      </div>
+      <div class="card">
+        <h3>アカウント不要</h3>
+        <p>煩わしいアカウント登録は不要で、すぐにテストを開始できます。</p>
+      </div>
+      <div class="card">
+        <h3>プライバシー保護</h3>
+        <p>あなたのデータは完全に匿名で、安全に保護されます。</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>使い方</h2>
+      <ol>
+        <li>アプリをダウンロードし、すぐにテストを開始します。</li>
+        <li>簡単なプロフィール情報を入力し、50問の質問に回答します（所要時間約10分）。</li>
+        <li>テストが終了すると、結果がすぐに表示されます。</li>
+        <li>詳細なレポートを確認し、自分の性格特性を理解しましょう。</li>
+        <li>必要に応じて結果をシェアし、友人や家族と比較して楽しみましょう。</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>このアプリが役立つシーン</h2>
+      <ul>
+        <li>自己分析: 自分の性格を深く理解することで、自己成長の手助けになります。</li>
+        <li>職場での活用: チームメンバーの性格特性を理解し、円滑なコミュニケーションと協力体制を築く手助けになります。</li>
+        <li>人間関係の改善: パートナーや友人との関係をより深く理解し、改善するためのヒントを得ることができます。</li>
+      </ul>
+    </section>
+
+    <section class="text-center">
+      <h2>ダウンロード</h2>
+      <a href="https://apps.apple.com/app/id6730124046" target="_blank" rel="noopener noreferrer" class="download-button app-store">
+        <i class="fab fa-apple"></i> App Store
+      </a>
+      <a href="https://play.google.com/store/apps/details?id=com.mycompany.big5" target="_blank" rel="noopener noreferrer" class="download-button google-play">
+        <i class="fab fa-google-play"></i> Google Play
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Big5診断テスト. All rights reserved.</p>
+  </footer>
 </body>
 </html>
